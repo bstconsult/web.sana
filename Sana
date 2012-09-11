@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use Mojolicious::Lite;
+use utf8;
 
 get '/' => sub {
   my $self = shift;
@@ -7,5 +8,6 @@ get '/' => sub {
   $self->render('index');
 };
 
+app->secret('ba81af01-6573-4811-8abf-239434cf0525');
 app->start;
 __DATA__
