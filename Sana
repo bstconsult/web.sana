@@ -3,6 +3,7 @@ use Mojolicious::Lite;
 
 get '/' => sub {
   my $self = shift;
+  $self->stash(body_class => 'home');
   $self->render('index');
 };
 
