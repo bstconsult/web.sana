@@ -17,8 +17,17 @@
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
   </head>
-  <body<%== ' class="' . $body_class . '"' if $body_class%>>
+  <body<%== ' class="' . $body_class . '"' if $body_class %>>
     <header class="container">
+      <h1 id="branding"><a href="/">
+          <img src="/images/logo.png" alt="медико-дентален център „Sana“">
+        </a>
+        <span></span>
+      </h1>
+      <%= include 'nav' %>
+      <div class="slider">
+        <img src="/images/slider/team.jpg" alt="">
+      </div>
     </header>
     <div id="wrapper">
       <%= content %>

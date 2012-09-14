@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li>
+      <%= link_to 'Начало' => '/', class => 'home' %>
+    </li>
+    <li>
+      <%= link_to 'За Нас' => 'about', class => 'about' %>
+    </li>
+    <li>
+      <%= link_to 'Услуги' => 'services', class => 'services' %>
+    </li>
+    <li>
+      <%= link_to 'Контакти' => 'contacts', class => 'contacts' %>
+    </li>
+  </ul>
+</nav>
+
