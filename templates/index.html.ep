@@ -1,4 +1,4 @@
 % layout 'default';
-% title 'Welcome';
-Welcome to the Mojolicious real-time web framework!
+% title 'Начало';
+<h2>Начало</h2>
 
