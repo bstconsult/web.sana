@@ -30,7 +30,12 @@
       </div>
     </header>
     <div id="wrapper">
-      <%= content %>
+      <div class="column first container">
+        <%= content %>
+      </div>
+      <div class="column second container">
+        
+      </div>
     </div><!-- #wrapper -->
     <footer class="container">
     </footer>
