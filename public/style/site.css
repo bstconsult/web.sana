@@ -124,16 +124,47 @@ nav li a {
     width: 96%;
 }
 .column {
-    width: 48%;
+    width: 56%;
     float: right;
     padding: 0.5em;
+    margin-bottom: 1em;
 }
 .second {
     float: left;
+    width: 40%;
+}
+.member-bio {
+    margin: 1em auto;
+    width: 96%;
+}
+.member-name {
+    display: inline;
+    padding-left: 0.5em;
+}
+.member-name + p {
+    display: inline;
+}
+.member-bio th {
+    font-weight: bold;
+    color: #c9c9c9;
+    text-align: right;
+    padding-right: 0.5em;
+}
+ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 1em;
+}
+.separator {
+    display: block;
+	background: url('seperator.png') no-repeat center;
+	height: 40px;
+}
+hr {
+    color: #4d4d4d;
 }
 
 footer {
     clear: both;
-    margin-top: 4em;
     padding: 0.5em;
 }
