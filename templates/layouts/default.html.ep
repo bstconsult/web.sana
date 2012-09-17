@@ -22,7 +22,7 @@
       <h1 id="branding"><a href="/">
           <img src="/images/logo.png" alt="медико-дентален център „Sana“">
         </a>
-        <span></span>
+        <span>Усмихвайте се със самочувствие!</span>
       </h1>
       <%= include 'nav' %>
       <div class="slider">
