@@ -10,7 +10,10 @@ get '/' => sub {
 
 get '/about' => sub {
     my $self = shift;
-    $self->stash(body_class => 'about');
+    $self->stash(
+      body_class => 'about',
+      aside => 'certificates'
+    );
     $self->render('about');
 };
 
