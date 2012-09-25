@@ -4,7 +4,10 @@ use utf8;
 
 get '/' => sub {
   my $self = shift;
-  $self->stash(body_class => 'home');
+  $self->stash(
+    body_class => 'home',
+    aside => undef,
+    );
   $self->render('index');
 };
 
@@ -12,21 +15,110 @@ get '/about' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'about',
-      aside => 'certificates'
+      aside => 'certificates',
     );
     $self->render('about');
 };
 
 get '/contacts' => sub {
     my $self = shift;
-    $self->stash(body_class => 'contacts');
+    $self->stash(
+      body_class => 'contacts',
+      aside => undef,
+    );
     $self->render('contacts');
 };
 
-get '/services' => sub {
+under '/services';
+
+# /services/aesthetic-dentistry
+get '/aesthetic-dentistry' => sub {
     my $self = shift;
-    $self->stash(body_class => 'services');
-    $self->render('services');
+    $self->stash(
+      body_class => 'aesthetic-dentistry',
+      aside => undef,
+    );
+    $self->render('services/aesthetic-dentistry');
+};
+
+# /services/dental-diagnostics-and-physiotherapy
+get '/dental-diagnostics-and-physiotherapy' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'dental-diagnostics-and-physiotherapy',
+      aside => undef,
+    );
+    $self->render('services/dental-diagnostics-and-physiotherapy');
+};
+
+# /services/dental-implantology
+get '/dental-implantology' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'dental-implantology',
+      aside => undef,
+    );
+    $self->render('services/dental-implantology');
+};
+
+# /services/endodontic-treatment
+get '/endodontic-treatment' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'endodontic-treatment',
+      aside => undef,
+    );
+    $self->render('services/endodontic-treatment');
+};
+
+# /services/oral-surgery
+get '/oral-surgery' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'oral-surgery',
+      aside => undef,
+    );
+    $self->render('services/oral-surgery');
+};
+
+# /services/orthodontics
+get '/orthodontics' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'orthodontics',
+      aside => undef,
+    );
+    $self->render('services/orthodontics');
+};
+
+# /services/pedodontics
+get '/pedodontics' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'pedodontics',
+      aside => undef,
+    );
+    $self->render('services/pedodontics');
+};
+
+# /services/periodontology-and-oral-hygiene
+get '/periodontology-and-oral-hygiene' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'periodontology-and-oral-hygiene',
+      aside => undef,
+    );
+    $self->render('services/periodontology-and-oral-hygiene');
+};
+
+# /services/prosthodontics
+get '/prosthodontics' => sub {
+    my $self = shift;
+    $self->stash(
+      body_class => 'prosthodontics',
+      aside => undef,
+    );
+    $self->render('services/prosthodontics');
 };
 
 app->secret('ba81af01-6573-4811-8abf-239434cf0525');
