@@ -150,10 +150,21 @@ nav li a {
     text-align: right;
     padding-right: 0.5em;
 }
-ol li {
+.column ul li,
+.column ol li {
     list-style-type: decimal;
     list-style-position: inside;
     margin-left: 1em;
+}
+.column ul li {
+    list-style-type: disc;
+}
+.column strong {
+    font-weight: bold;
+}
+.first p {
+    text-indent: 0.5em;
+    margin-bottom: 0.5em;
 }
 .separator {
     display: block;
