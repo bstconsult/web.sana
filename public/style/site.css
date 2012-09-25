@@ -150,13 +150,13 @@ nav li a {
     text-align: right;
     padding-right: 0.5em;
 }
-.column ul li,
-.column ol li {
+.first ul li,
+.first ol li {
     list-style-type: decimal;
     list-style-position: inside;
     margin-left: 1em;
 }
-.column ul li {
+.first ul li {
     list-style-type: disc;
 }
 .column strong {

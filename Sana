@@ -2,20 +2,23 @@
 use Mojolicious::Lite;
 use utf8;
 
+my $aside = 'services';
+
 get '/' => sub {
   my $self = shift;
   $self->stash(
     body_class => 'home',
-    aside => undef,
+    aside => $aside,
     );
   $self->render('index');
 };
 
 get '/about' => sub {
     my $self = shift;
+    my $aside = 'certificates';
     $self->stash(
       body_class => 'about',
-      aside => 'certificates',
+      aside => $aside,
     );
     $self->render('about');
 };
@@ -24,7 +27,7 @@ get '/contacts' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'contacts',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('contacts');
 };
@@ -36,7 +39,7 @@ get '/aesthetic-dentistry' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'aesthetic-dentistry',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/aesthetic-dentistry');
 };
@@ -46,7 +49,7 @@ get '/dental-diagnostics-and-physiotherapy' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'dental-diagnostics-and-physiotherapy',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/dental-diagnostics-and-physiotherapy');
 };
@@ -56,7 +59,7 @@ get '/dental-implantology' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'dental-implantology',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/dental-implantology');
 };
@@ -66,7 +69,7 @@ get '/endodontic-treatment' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'endodontic-treatment',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/endodontic-treatment');
 };
@@ -76,7 +79,7 @@ get '/oral-surgery' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'oral-surgery',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/oral-surgery');
 };
@@ -86,7 +89,7 @@ get '/orthodontics' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'orthodontics',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/orthodontics');
 };
@@ -96,7 +99,7 @@ get '/pedodontics' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'pedodontics',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/pedodontics');
 };
@@ -106,7 +109,7 @@ get '/periodontology-and-oral-hygiene' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'periodontology-and-oral-hygiene',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/periodontology-and-oral-hygiene');
 };
@@ -116,7 +119,7 @@ get '/prosthodontics' => sub {
     my $self = shift;
     $self->stash(
       body_class => 'prosthodontics',
-      aside => undef,
+      aside => $aside,
     );
     $self->render('services/prosthodontics');
 };
