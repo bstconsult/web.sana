@@ -192,6 +192,10 @@ nav li a {
     line-height: 40px;
     margin-top: 0;
 }
+.box-inner {
+    width: 96%;
+    margin: 0 auto 0.5em;
+}
 hr {
     color: #4d4d4d;
 }

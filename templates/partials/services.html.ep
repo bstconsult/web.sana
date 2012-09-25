@@ -1,34 +1,36 @@
 <div class="side box">
   <h4 class="box-title"><span class="ornament">&nbsp;</span>Предлагани услуги</h4>
-  <nav>
-    <ul>
-      <li>
-        <%= link_to 'Естетична дентална медицина' => '/aesthetic-dentistry', class => 'aesthetic-dentistry' %>
-      </li>
-      <li>
-        <%= link_to 'Дентална диагностика и физиотерапия' => '/dental-diagnostics-and-physiotherapy', class => 'dental-diagnostics-and-physiotherapy' %>
-      </li>
-      <li>
-        <%= link_to 'Дентална имплантология' => '/dental-implantology', class => 'dental-implantology' %>
-      </li>
-      <li>
-        <%= link_to 'Кариесология и ендодонтия' => '/endodontic-treatment', class => 'endodontic-treatment' %>
-      </li>
-      <li>
-        <%= link_to 'Орална и пародонтална хирургия' => '/oral-surgery', class => 'oral-surgery' %>
-      </li>
-      <li>
-        <%= link_to 'Ортодонтия' => '/orthodontics', class => 'orthodontics' %>
-      </li>
-      <li>
-        <%= link_to 'Детска дентална медицина' => '/pedodontics', class => 'pedodontics' %>
-      </li>
-      <li>
-        <%= link_to 'Пародонтология и орална хигиена' => '/periodontology-and-oral-hygiene', class => 'periodontology-and-oral-hygiene' %>
-      </li>
-      <li>
-        <%= link_to 'Протетична дентална медицина' => '/prosthodontics', class => 'prosthodontics' %>
-      </li>
-    </ul>
-  </nav>
+  <div class="box-inner">
+    <nav>
+      <ul>
+        <li>
+          <%= link_to 'Естетична дентална медицина' => '/aesthetic-dentistry', class => 'aesthetic-dentistry' %>
+        </li>
+        <li>
+          <%= link_to 'Дентална диагностика и физиотерапия' => '/dental-diagnostics-and-physiotherapy', class => 'dental-diagnostics-and-physiotherapy' %>
+        </li>
+        <li>
+          <%= link_to 'Дентална имплантология' => '/dental-implantology', class => 'dental-implantology' %>
+        </li>
+        <li>
+          <%= link_to 'Кариесология и ендодонтия' => '/endodontic-treatment', class => 'endodontic-treatment' %>
+        </li>
+        <li>
+          <%= link_to 'Орална и пародонтална хирургия' => '/oral-surgery', class => 'oral-surgery' %>
+        </li>
+        <li>
+          <%= link_to 'Ортодонтия' => '/orthodontics', class => 'orthodontics' %>
+        </li>
+        <li>
+          <%= link_to 'Детска дентална медицина' => '/pedodontics', class => 'pedodontics' %>
+        </li>
+        <li>
+          <%= link_to 'Пародонтология и орална хигиена' => '/periodontology-and-oral-hygiene', class => 'periodontology-and-oral-hygiene' %>
+        </li>
+        <li>
+          <%= link_to 'Протетична дентална медицина' => '/prosthodontics', class => 'prosthodontics' %>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>
