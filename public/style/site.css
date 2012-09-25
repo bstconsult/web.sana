@@ -168,7 +168,7 @@ nav li a {
 }
 .separator {
     display: block;
-	background: url('seperator.png') no-repeat center;
+	background: url('separator.png') no-repeat center;
 	height: 40px;
 }
 hr {
