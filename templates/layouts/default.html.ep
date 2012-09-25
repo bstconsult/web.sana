@@ -24,7 +24,7 @@
         </a>
         <span>Усмихвайте се със самочувствие!</span>
       </h1>
-      <%= include 'nav' %>
+      <%= include 'partials/nav' %>
       <div class="slider">
         <img src="/images/slider/team.jpg" alt="">
       </div>
