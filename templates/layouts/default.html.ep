@@ -38,6 +38,21 @@
       </div>
     </div><!-- #wrapper -->
     <footer class="container">
+      <div class="container second column">
+        <div class="box">
+          <h4 class="box-title">
+            <span class="ornament">&nbsp;</span>Медико-дентален център „Sana“
+          </h4>
+          <div class="box-inner">
+            <strong>GPS Адрес:</strong> <span class="latitude">43.2103174°</span>,
+            <span class="longitude">27.9020970°</span>
+            <hr/>
+            <strong>GSM:</strong> 0888/010568
+            <br/>
+            <strong>Телефон:</strong> 052/602 092
+          </div>
+        </div>
+      </div>
     </footer>
     <!--[if lt IE 7 ]>
 	    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>

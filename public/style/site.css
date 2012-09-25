@@ -161,7 +161,7 @@ nav li a {
 .first ul li {
     list-style-type: disc;
 }
-.column strong {
+strong {
     font-weight: bold;
 }
 .first p {
@@ -203,4 +203,6 @@ hr {
 footer {
     clear: both;
     padding: 0.5em;
+    font-size: 0.9em;
+    overflow: auto;
 }
