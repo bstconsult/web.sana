@@ -4,31 +4,49 @@
     <nav>
       <ul>
         <li>
-          <%= link_to 'Естетична дентална медицина' => '/aesthetic-dentistry', class => 'aesthetic-dentistry' %>
+          <%= link_to 'aestheticdentistry', class => 'aesthetic-dentistry', title => 'Естетична дентална медицина', begin %>
+          <img src="/images/services/aesthetic-dentistry.png" alt="Естетична дентална медицина"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Дентална диагностика и физиотерапия' => '/dental-diagnostics-and-physiotherapy', class => 'dental-diagnostics-and-physiotherapy' %>
+          <%= link_to 'dentaldiagnosticsandphysiotherapy', class => 'dental-diagnostics-and-physiotherapy', title => 'Дентална диагностика и физиотерапия', begin %>
+          <img src="/images/services/dental-diagnostics-and-physiotherapy.png" alt="Дентална диагностика и физиотерапия"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Дентална имплантология' => '/dental-implantology', class => 'dental-implantology' %>
+          <%= link_to 'dentalimplantology', class => 'dental-implantology', title => 'Дентална имплантология', begin %>
+          <img src="/images/services/dental-implantology.png" alt="Дентална имплантология"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Кариесология и ендодонтия' => '/endodontic-treatment', class => 'endodontic-treatment' %>
+          <%= link_to 'endodontictreatment', class => 'endodontic-treatment', title => 'Кариесология и ендодонтия', begin %>
+          <img src="/images/services/endodontic-treatment.png" alt="Кариесология и ендодонтия"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Орална и пародонтална хирургия' => '/oral-surgery', class => 'oral-surgery' %>
+          <%= link_to 'oralsurgery', class => 'oral-surgery', title => 'Орална и пародонтална хирургия', begin %>
+          <img src="/images/services/oral-surgery.png" alt="Орална и пародонтална хирургия"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Ортодонтия' => '/orthodontics', class => 'orthodontics' %>
+          <%= link_to 'orthodontics', class => 'orthodontics', title => 'Ортодонтия', begin %>
+          <img src="/images/services/orthodontics.png" alt="Ортодонтия"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Детска дентална медицина' => '/pedodontics', class => 'pedodontics' %>
+          <%= link_to 'pedodontics', class => 'pedodontics', title => 'Детска дентална медицина', begin %>
+          <img src="/images/services/pedodontics.png" alt="Детска дентална медицина"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Пародонтология и орална хигиена' => '/periodontology-and-oral-hygiene', class => 'periodontology-and-oral-hygiene' %>
+          <%= link_to 'periodontologyandoralhygiene', class => 'periodontology-and-oral-hygiene', title => 'Пародонтология и орална хигиена', begin %>
+          <img src="/images/services/periodontology-and-oral-hygiene.png" alt="Пародонтология и орална хигиена"/>
+          <% end %>
         </li>
         <li>
-          <%= link_to 'Протетична дентална медицина' => '/prosthodontics', class => 'prosthodontics' %>
+          <%= link_to 'prosthodontics', class => 'prosthodontics', title => 'Протетична дентална медицина', begin %>
+          <img src="/images/services/prosthodontics.png" alt="Протетична дентална медицина"/>
+          <% end %>
         </li>
       </ul>
     </nav>
