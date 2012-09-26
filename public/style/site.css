@@ -102,6 +102,10 @@ header {
     margin-top: 90px;
     position: relative;
     padding: 0.5em;
+    background-image: url('box.png');
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    padding-top: 0;
 }
 #branding {
     position: absolute;
@@ -114,12 +118,28 @@ header {
     background-color: #2a2a2a;
     box-shadow: 0 0 0.5em #2a2a2a;
 }
+header nav {
+    overflow: auto;
+    margin-bottom: 0.5em;
+}
 nav li {
     float: left;
 }
 nav li a {
     padding: 0.5em 1em;
     line-height: 40px;
+}
+header nav a {
+    margin-right: 0.5em;
+    color: #fff !important;
+    font-weight: bold;
+}
+body.home .home,
+body.contacts .contacts,
+body.about .about,
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5em;
 }
 #wrapper {
     width: 96%;
